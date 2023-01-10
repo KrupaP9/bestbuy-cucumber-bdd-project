@@ -1,0 +1,1551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.testsuite.StoreDataDrivenTest" time="2.389" tests="43" errors="17" skipped="0" failures="3">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\krupa\IdeaProjects\bestbuy-cucumber-bdd-project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\krupa\IdeaProjects\bestbuy-cucumber-bdd-project"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\krupa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\krupa\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\krupa\AppData\Local\Programs\Python\Python310\;C:\Users\krupa\AppData\Local\Microsoft\WindowsApps;;C:\Users\krupa\Maharshi PythonProjects\PyCharm Edu 2019.3.4\bin;;C:\Users\krupa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\krupa\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\krupa"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Krupa"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test001[11]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.059">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor185.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.testsuite.StoreDataDrivenTest.test001(StoreDataDrivenTest.java:37)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Oberbrunner LLC",
+    "type": "Consumer Specialties",
+    "address": "8 Di Loreto Plaza",
+    "address2": "NW30",
+    "city": "Hanbin",
+    "state": "Wales",
+    "zip": "56789",
+    "lat": 66,
+    "lng": 35,
+    "hours": "Monday to Friday 8to4"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Reinger-Zulauf",
+    "type": "Consumer Specialties",
+    "address": "795 Northridge Street",
+    "address2": "NW30",
+    "city": "Batulenger Barat",
+    "state": "Scotland",
+    "zip": "34567",
+    "lat": 37,
+    "lng": 13,
+    "hours": "Monday to Sunday 9to5"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Schowalter Inc",
+    "type": "Real Estate Investment Trusts",
+    "address": "0 Walton Crossing",
+    "address2": "N20",
+    "city": "Jincheng",
+    "state": "Wales",
+    "zip": "56789",
+    "lat": 98,
+    "lng": 84,
+    "hours": "Monday to Friday 9to10"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Batz Inc",
+    "type": "Natural Gas Distribution",
+    "address": "6606 Schmedeman Trail",
+    "address2": "NW30",
+    "city": "Azenhas do Mar",
+    "state": "England",
+    "zip": "45679",
+    "lat": 52,
+    "lng": 60,
+    "hours": "Monday to Friday 9to10"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Zulauf-Schoen",
+    "type": "Banks",
+    "address": "761 International Lane",
+    "address2": "NW20",
+    "city": "Reshetylivka",
+    "state": "Scotland",
+    "zip": "45671",
+    "lat": 14,
+    "lng": 80,
+    "hours": "Monday to Friday 8to4"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Goldner LLC",
+    "type": "Oil & Gas Production",
+    "address": "14432 Raven Court",
+    "address2": "NW30",
+    "city": "Dagang",
+    "state": "Scotland",
+    "zip": "45678",
+    "lat": 42,
+    "lng": 66,
+    "hours": "Monday to Friday 9to10"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Kunze Group",
+    "type": "Consumer Specialties",
+    "address": "899 Lawn Circle",
+    "address2": "NW20",
+    "city": "Liulin",
+    "state": "Scotland",
+    "zip": "45678",
+    "lat": 89,
+    "lng": 38,
+    "hours": "Monday to Sunday 9to5"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Farrell-Dickinson",
+    "type": "Consumer Specialties",
+    "address": "96 Brown Street",
+    "address2": "NW10",
+    "city": "Bezerros",
+    "state": "Scotland",
+    "zip": "45678",
+    "lat": 43,
+    "lng": 61,
+    "hours": "Monday to Sunday 9to5"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Muller Block and Rowe",
+    "type": "Oil & Gas Production",
+    "address": "4154 David Crossing",
+    "address2": "NW20",
+    "city": "Ko?min Wielkopolski",
+    "state": "Scotland",
+    "zip": "45671",
+    "lat": 93,
+    "lng": 67,
+    "hours": "Monday to Sunday 9to5"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Okuneva Haley and Stiedemann",
+    "type": "Biotechnology: Commercial Physical & Biological Resarch",
+    "address": "7 Schiller Circle",
+    "address2": "NW10",
+    "city": "M?rupe",
+    "state": "Scotland",
+    "zip": "56789",
+    "lat": 53,
+    "lng": 74,
+    "hours": "Monday to Friday 8to4"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Paucek and Sons",
+    "type": "Major Banks",
+    "address": "45442 Nancy Avenue",
+    "address2": "NW10",
+    "city": "Changjiang",
+    "state": "Wales",
+    "zip": "56789",
+    "lat": 65,
+    "lng": 86,
+    "hours": "Monday to Sunday 9to5"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Jakubowski-Hettinger",
+    "type": "Consumer Specialties",
+    "address": "85 Holmberg Road",
+    "address2": "NW10",
+    "city": "Vila Fria",
+    "state": "England",
+    "zip": "56789",
+    "lat": 20,
+    "lng": 43,
+    "hours": "Monday to Sunday 9to5"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Kreiger Walsh and Jones",
+    "type": "Other Specialty Stores",
+    "address": "53888 Bultman Trail",
+    "address2": "NW30",
+    "city": "Ugbokpo",
+    "state": "Wales",
+    "zip": "45671",
+    "lat": 34,
+    "lng": 13,
+    "hours": "Monday to Friday 9to10"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Bergstrom and Sons",
+    "type": "Business Services",
+    "address": "64 Russell Circle",
+    "address2": "NW10",
+    "city": "Kota Kinabalu",
+    "state": "Wales",
+    "zip": "45671",
+    "lat": 80,
+    "lng": 91,
+    "hours": "Monday to Sunday 9to5"
+}
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Content-Type: application/json; charset=utf-8
+Content-Length: 159
+ETag: W/"9f-1votnBXOQHOhm2zch/aBXDP1Rx4"
+Vary: Accept-Encoding
+Date: Tue, 10 Jan 2023 18:37:35 GMT
+Connection: keep-alive
+
+{
+    "name": "BadRequest",
+    "message": "Invalid Parameters",
+    "code": 400,
+    "className": "bad-request",
+    "data": {
+        
+    },
+    "errors": [
+        "'type' should NOT be longer than 30 characters"
+    ]
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Parker Marks and Rogahn",
+    "type": "Marine Transportation",
+    "address": "5941 Judy Plaza",
+    "address2": "NW 30",
+    "city": "Tsaghkadzor",
+    "state": "England",
+    "zip": "34567",
+    "lat": 75,
+    "lng": 50,
+    "hours": "Monday to Friday 9to10"
+}
+Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Pouros-Conn",
+    "type": "Consumer Specialties",
+    "address": "956 Buena Vista Alley",
+    "address2": "NW30",
+    "city": "Sapol",
+    "state": "England",
+    "zip": "45671",
+    "lat": 62,
+    "lng": 65,
+    "hours": "Monday to Sunday 9to5"
+}
+]]></system-out>
+    <system-err><![CDATA[12297 [main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Data driven test for adding multiple product to the application
+----------------------------------------------------------------------------
+12309 [pool-21-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Data driven test for adding multiple product to the application to file C:\Users\krupa\IdeaProjects\bestbuy-cucumber-bdd-project\target\site\serenity\80cc0edde95b8f3b06fb4b66120dafd80b238e9aa3bccf6982fdaa2711f895b7.json (using temp file C:\Users\krupa\IdeaProjects\bestbuy-cucumber-bdd-project\target\site\serenity\80cc0edde95b8f3b06fb4b66120dafd80b238e9aa3bccf6982fdaa2711f895b7.json69f9b45a-d476-497c-bf57-2bfe692f9ecf)
+12327 [pool-22-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Product data driven test:createMultipleProducts in 80cc0edde95b8f3b06fb4b66120dafd80b238e9aa3bccf6982fdaa2711f895b7.html in directory target\site\serenity  
+12547 [StoreDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12548 [StoreDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[8]
+-------------------------------------------------------------------
+12548 [StoreDataDrivenTest-2-thread-9] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 26
+12552 [StoreDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12556 [StoreDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[5]
+-------------------------------------------------------------------
+12556 [StoreDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 27
+12560 [StoreDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12562 [StoreDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[4]
+-------------------------------------------------------------------
+12562 [StoreDataDrivenTest-2-thread-5] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 28
+12564 [StoreDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12565 [StoreDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[3]
+-------------------------------------------------------------------
+12565 [StoreDataDrivenTest-2-thread-4] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 29
+12567 [StoreDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12570 [StoreDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[2]
+-------------------------------------------------------------------
+12571 [StoreDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 30
+12573 [StoreDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12573 [StoreDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[6]
+-------------------------------------------------------------------
+12573 [StoreDataDrivenTest-2-thread-7] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 31
+12580 [StoreDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12582 [StoreDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[9]
+-------------------------------------------------------------------
+12582 [StoreDataDrivenTest-2-thread-10] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 32
+12587 [StoreDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12588 [StoreDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[13]
+-------------------------------------------------------------------
+12588 [StoreDataDrivenTest-2-thread-14] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 33
+12592 [StoreDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12592 [StoreDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[10]
+-------------------------------------------------------------------
+12592 [StoreDataDrivenTest-2-thread-11] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 34
+12596 [StoreDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12597 [StoreDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[7]
+-------------------------------------------------------------------
+12598 [StoreDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 35
+12607 [StoreDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12608 [StoreDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[11]
+-------------------------------------------------------------------
+12608 [StoreDataDrivenTest-2-thread-12] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 36
+12615 [StoreDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12616 [StoreDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[0]
+-------------------------------------------------------------------
+12616 [StoreDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 37
+12628 [StoreDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12628 [StoreDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[15]
+-------------------------------------------------------------------
+12628 [StoreDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 38
+12635 [StoreDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12642 [StoreDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[1]
+-------------------------------------------------------------------
+12642 [StoreDataDrivenTest-2-thread-2] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 39
+12653 [StoreDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12654 [StoreDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[12]
+-------------------------------------------------------------------
+12654 [StoreDataDrivenTest-2-thread-13] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 40
+12660 [StoreDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12660 [StoreDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[14]
+-------------------------------------------------------------------
+12660 [StoreDataDrivenTest-2-thread-15] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 41
+]]></system-err>
+  </testcase>
+  <testcase name="test001[4]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.09"/>
+  <testcase name="test001[13]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.018"/>
+  <testcase name="test001[2]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.015"/>
+  <testcase name="test001[18]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.02">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor185.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.testsuite.StoreDataDrivenTest.test001(StoreDataDrivenTest.java:37)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:3030/stores
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Headers:		Connection=keep-alive
+				Accept=application/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Body:
+{
+    "name": "Simonis-Rogahn",
+    "type": "ContainersPackaging",
+    "address": "3741 Thierer Park",
+    "address2": "NW30",
+    "city": "Pidvynohradiv",
+    "state": "England",
+    "zip": "34567",
+    "lat": 41,
+    "lng": 64,
+    "hours": "Monday to Friday 9to10"
+}
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Content-Type: application/json; charset=utf-8
+Content-Length: 159
+ETag: W/"9f-1votnBXOQHOhm2zch/aBXDP1Rx4"
+Vary: Accept-Encoding
+Date: Tue, 10 Jan 2023 18:37:35 GMT
+Connection: keep-alive
+
+{
+    "name": "BadRequest",
+    "message": "Invalid Parameters",
+    "code": 400,
+    "className": "bad-request",
+    "data": {
+        
+    },
+    "errors": [
+        "'type' should NOT be longer than 30 characters"
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[12846 [StoreDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Data driven test for adding multiple store to the application
+----------------------------------------------------------------------------
+12850 [StoreDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12851 [StoreDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[19]
+-------------------------------------------------------------------
+12851 [StoreDataDrivenTest-2-thread-3] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 45
+]]></system-err>
+  </testcase>
+  <testcase name="test001[6]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.013"/>
+  <testcase name="test001[10]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.02"/>
+  <testcase name="test001[8]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.014"/>
+  <testcase name="test001[5]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.017"/>
+  <testcase name="test001[7]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.018"/>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.002">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.thucydides.core.model.DataTable$RowValueAccessor.toStringMap(DataTable.java:291)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testStarted(ParameterizedJUnitStepListener.java:38)
+	at org.junit.runner.notification.SynchronizedRunListener.testStarted(SynchronizedRunListener.java:49)
+	at org.junit.runner.notification.RunNotifier$3.notifyListener(RunNotifier.java:121)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-err><![CDATA[12966 [StoreDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Data driven test for adding multiple store to the application
+----------------------------------------------------------------------------
+12968 [StoreDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - Test Suite Started: Store data driven test
+12968 [StoreDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: test001[25]
+-------------------------------------------------------------------
+12969 [StoreDataDrivenTest-2-thread-8] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 51
+]]></system-err>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.01">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.011">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.012">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.013">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.013">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.014">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.015">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.017">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.017">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.02">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.02">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.02">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.021">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-out><![CDATA[HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Allow: GET,POST,PUT,PATCH,DELETE
+Vary: Accept, Accept-Encoding
+Content-Type: application/json; charset=utf-8
+Content-Length: 284
+ETag: W/"11c-LI9I6hVMSIPP1APWLXQ6KpwiyhQ"
+Date: Tue, 10 Jan 2023 18:37:35 GMT
+Connection: keep-alive
+
+{
+    "id": 9095,
+    "name": "Paucek and Sons",
+    "type": "Major Banks",
+    "address": "45442 Nancy Avenue",
+    "address2": "NW10",
+    "city": "Changjiang",
+    "state": "Wales",
+    "zip": "56789",
+    "lat": 65,
+    "lng": 86,
+    "hours": "Monday to Sunday 9to5",
+    "updatedAt": "2023-01-10T18:37:35.241Z",
+    "createdAt": "2023-01-10T18:37:35.241Z"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.022">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+    <system-err><![CDATA[12988 [StoreDataDrivenTest-2-thread-16] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Data driven test for adding multiple store to the application
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Test mechanism" classname="Test mechanism" time="0.023">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testingThisDataSet(ParameterizedJUnitStepListener.java:63)
+	at net.serenitybdd.junit.runners.ParameterizedJUnitStepListener.testFailure(ParameterizedJUnitStepListener.java:77)
+	at org.junit.runner.notification.SynchronizedRunListener.testFailure(SynchronizedRunListener.java:63)
+	at org.junit.runner.notification.RunNotifier$4.notifyListener(RunNotifier.java:142)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFailures(RunNotifier.java:138)
+	at org.junit.runner.notification.RunNotifier.access$100(RunNotifier.java:21)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:78)
+	at org.junit.runner.notification.RunNotifier.fireTestStarted(RunNotifier.java:118)
+	at org.junit.internal.runners.model.EachTestNotifier.fireTestStarted(EachTestNotifier.java:42)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:323)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at net.serenitybdd.junit.runners.SerenityRunner.performRunChild(SerenityRunner.java:471)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:446)
+	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:252)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</error>
+  </testcase>
+  <testcase name="test001[15]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.021"/>
+  <testcase name="test001[9]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.037"/>
+  <testcase name="test001[0]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.053"/>
+  <testcase name="test001[25]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.054">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <400>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+	at sun.reflect.GeneratedMethodAccessor185.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.bestbuy.testsuite.StoreDataDrivenTest.test001(StoreDataDrivenTest.java:37)
+]]></failure>
+    <system-err><![CDATA[13020 [StoreDataDrivenTest-2-thread-1] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Data driven test for adding multiple store to the application
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="test001[1]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.076"/>
+  <testcase name="test001[12]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.091"/>
+  <testcase name="test001[14]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.106"/>
+  <testcase name="test001[3]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.123"/>
+  <testcase name="test001[16]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.133"/>
+  <testcase name="test001[17]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.144"/>
+  <testcase name="test001[19]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.154"/>
+  <testcase name="test001[20]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.165"/>
+  <testcase name="test001[21]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.172"/>
+  <testcase name="test001[22]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.18"/>
+  <testcase name="test001[23]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.188"/>
+  <testcase name="test001[24]" classname="com.bestbuy.testsuite.StoreDataDrivenTest" time="0.195"/>
+  <testcase name="com.bestbuy.testsuite.StoreDataDrivenTest" classname="org.apache.maven.surefire.junit4.JUnit4Provider" time="0.211">
+    <error message="at index 1" type="java.lang.NullPointerException">java.lang.NullPointerException: at index 1
+	at com.google.common.collect.ObjectArrays.checkElementNotNull(ObjectArrays.java:236)
+	at com.google.common.collect.ObjectArrays.checkElementsNotNull(ObjectArrays.java:226)
+	at com.google.common.collect.ObjectArrays.checkElementsNotNull(ObjectArrays.java:220)
+	at com.google.common.collect.ImmutableList.construct(ImmutableList.java:347)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:257)
+	at net.thucydides.core.model.DataTable.addRows(DataTable.java:120)
+	at net.thucydides.core.model.TestOutcome.addDataFrom(TestOutcome.java:704)
+	at net.serenitybdd.junit.runners.ParameterizedTestsOutcomeAggregator.aggregatedScenarioOutcomes(ParameterizedTestsOutcomeAggregator.java:48)
+	at net.serenitybdd.junit.runners.ParameterizedTestsOutcomeAggregator.aggregateTestOutcomesByTestMethods(ParameterizedTestsOutcomeAggregator.java:29)
+	at net.serenitybdd.junit.runners.SerenityParameterizedRunner.generateReports(SerenityParameterizedRunner.java:193)
+	at net.serenitybdd.junit.runners.SerenityParameterizedRunner.run(SerenityParameterizedRunner.java:188)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+</error>
+    <system-err><![CDATA[13164 [StoreDataDrivenTest-2-thread-6] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Data driven test for adding multiple store to the application
+----------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+</testsuite>

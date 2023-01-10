@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.cucumber.CucumberRunner" time="2.388" tests="56" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\krupa\IdeaProjects\bestbuy-cucumber-bdd-project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\krupa\IdeaProjects\bestbuy-cucumber-bdd-project"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\krupa\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\Python37\Scripts\;C:\Program Files\Python37\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.6\bin;C:\Program Files\nodejs\;C:\Users\krupa\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\krupa\AppData\Local\Programs\Python\Python310\;C:\Users\krupa\AppData\Local\Microsoft\WindowsApps;;C:\Users\krupa\Maharshi PythonProjects\PyCharm Edu 2019.3.4\bin;;C:\Users\krupa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\krupa\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\krupa"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Krupa"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.2.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Best buy application is running" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0.002"/>
+  <testcase name="When I create a new product by providing the information name &quot;Bosch Washing Machine&quot; type &quot;WhiteGood&quot; price &quot;300&quot; shipping &quot;20&quot; upc &quot;234567890&quot; description &quot;Good quality Bosch washing machine&quot; manufacturer &quot;CanCompany&quot; model &quot;MN2727B4z&quot; url &quot;http://www.google.com/image&quot; image &quot;http://dummyimage.com/128x100.png/ff4444/ffffff&quot;" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="Then I verify that the product with name &quot;Bosch Washing Machine&quot; is created" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="And I update product by providing the information name &quot;Bosch Washing Machine&quot; type &quot;WhiteGood&quot; price &quot;300&quot; shipping &quot;20&quot; upc &quot;234567890&quot; description &quot;Good quality Bosch washing machine&quot; manufacturer &quot;CanCompany&quot; model &quot;MN2727B4z&quot; url &quot;http://www.google.com/image&quot; image &quot;http://dummyimage.com/128x100.png/ff4444/ffffff&quot;" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="And The product with name &quot;Bosch Washing Machine&quot; is updated successfully" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="And I delete the product that created with name &quot;Bosch Washing Machine&quot;" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="Then The product deleted successfully from the application" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0"/>
+  <testcase name="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" classname="| Bosch Washing Machine | WhiteGood | 300 | 20 | 234567890 | Good quality Bosch washing machine | CanCompany | MN2727B4z | http://www.google.com/image | http://dummyimage.com/128x100.png/ff4444/ffffff |" time="0.006"/>
+  <testcase name="Given Best buy application is running" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="When I create a new product by providing the information name &quot;Beko Washing Machine&quot; type &quot;WhiteGood&quot; price &quot;200&quot; shipping &quot;20&quot; upc &quot;123455542&quot; description &quot;Good quality Bosch washing machine&quot; manufacturer &quot;BangCompany&quot; model &quot;MN2525B4z&quot; url &quot;http://www.yahoo.com/image&quot; image &quot;http://dummyimage.com/214x100.png/5fa2dd/ffffff&quot;" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="Then I verify that the product with name &quot;Beko Washing Machine&quot; is created" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="And I update product by providing the information name &quot;Beko Washing Machine&quot; type &quot;WhiteGood&quot; price &quot;200&quot; shipping &quot;20&quot; upc &quot;123455542&quot; description &quot;Good quality Bosch washing machine&quot; manufacturer &quot;BangCompany&quot; model &quot;MN2525B4z&quot; url &quot;http://www.yahoo.com/image&quot; image &quot;http://dummyimage.com/214x100.png/5fa2dd/ffffff&quot;" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="And The product with name &quot;Beko Washing Machine&quot; is updated successfully" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="And I delete the product that created with name &quot;Beko Washing Machine&quot;" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="Then The product deleted successfully from the application" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="0"/>
+  <testcase name="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" classname="| Beko Washing Machine | WhiteGood | 200 | 20 | 123455542 | Good quality Bosch washing machine | BangCompany | MN2525B4z | http://www.yahoo.com/image | http://dummyimage.com/214x100.png/5fa2dd/ffffff |" time="1.375"/>
+  <testcase name="Given Best buy application is running" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="When I create a new store by providing the information name &quot;HomeStore&quot; type &quot;Store&quot; address &quot;10 Liverpool Road&quot; addresstwo &quot;LI 23&quot; city &quot;Liverpool&quot; state &quot;England&quot; zip &quot;12344&quot; lat &quot;67&quot; lng &quot;64&quot; hours &quot;Monday to Friday 9to10&quot;" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="Then I verify that the store with name &quot;HomeStore&quot; is created" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="And I update store by providing the information name &quot;HomeStore&quot; type &quot;Store&quot; address &quot;10 Liverpool Road&quot; addresstwo &quot;LI 23&quot; city &quot;Liverpool&quot; state &quot;England&quot; zip &quot;12344&quot; lat &quot;67&quot; lng &quot;64&quot; hours &quot;Monday to Friday 9to10&quot;" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="And The store with name &quot;HomeStore&quot; is updated successfully" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="And I delete the store that created with name &quot;HomeStore&quot;" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="Then The store deleted successfully from the application" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" classname="| HomeStore | Store | 10 Liverpool Road | LI 23 | Liverpool | England | 12344 | 67 | 64 | Monday to Friday 9to10 |" time="0.002"/>
+  <testcase name="Given Best buy application is running" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="When I create a new store by providing the information name &quot;HomeApplianz&quot; type &quot;Store&quot; address &quot;20 Manchester Road&quot; addresstwo &quot;MA 50&quot; city &quot;Manchester&quot; state &quot;England&quot; zip &quot;67888&quot; lat &quot;35&quot; lng &quot;88&quot; hours &quot;Monday to Friday 9to10&quot;" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="Then I verify that the store with name &quot;HomeApplianz&quot; is created" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="And I update store by providing the information name &quot;HomeApplianz&quot; type &quot;Store&quot; address &quot;20 Manchester Road&quot; addresstwo &quot;MA 50&quot; city &quot;Manchester&quot; state &quot;England&quot; zip &quot;67888&quot; lat &quot;35&quot; lng &quot;88&quot; hours &quot;Monday to Friday 9to10&quot;" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="And The store with name &quot;HomeApplianz&quot; is updated successfully" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="And I delete the store that created with name &quot;HomeApplianz&quot;" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="Then The store deleted successfully from the application" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0"/>
+  <testcase name="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" classname="| HomeApplianz | Store | 20 Manchester Road | MA 50 | Manchester | England | 67888 | 35 | 88 | Monday to Friday 9to10 |" time="0.109"/>
+  <testcase name="When User sends a GET request to products endpoint" classname="Scenario: Check if the product api can be accessed by GET request" time="0"/>
+  <testcase name="Then user must get back a valid status code 200" classname="Scenario: Check if the product api can be accessed by GET request" time="0"/>
+  <testcase name="Scenario: Check if the product api can be accessed by GET request" classname="Scenario: Check if the product api can be accessed by GET request" time="0.058"/>
+  <testcase name="When User sends a POST request by providing the information to products endpoint" classname="Scenario: Check if the product api can be accessed by POST request" time="0"/>
+  <testcase name="Then user must get back valid status code 201" classname="Scenario: Check if the product api can be accessed by POST request" time="0"/>
+  <testcase name="Scenario: Check if the product api can be accessed by POST request" classname="Scenario: Check if the product api can be accessed by POST request" time="0.128"/>
+  <testcase name="When User sends a PUT request by providing the information to products/id endpoint" classname="Scenario: Check if the product api can be accessed by PUT request" time="0.001"/>
+  <testcase name="Then user get back valid status code 200" classname="Scenario: Check if the product api can be accessed by PUT request" time="0"/>
+  <testcase name="Scenario: Check if the product api can be accessed by PUT request" classname="Scenario: Check if the product api can be accessed by PUT request" time="0.103"/>
+  <testcase name="When User sends a DELETE request to products/id endpoint" classname="Scenario: Check if the product api can be accessed by DELETE request" time="0"/>
+  <testcase name="Then user get back a valid status code 200" classname="Scenario: Check if the product api can be accessed by DELETE request" time="0"/>
+  <testcase name="Scenario: Check if the product api can be accessed by DELETE request" classname="Scenario: Check if the product api can be accessed by DELETE request" time="0.154"/>
+  <testcase name="When User sends a GET request to stores endpoint" classname="Scenario: Check if  store api can be accessed by GET request" time="0"/>
+  <testcase name="Then user must get back a valid status code 200" classname="Scenario: Check if  store api can be accessed by GET request" time="0"/>
+  <testcase name="Scenario: Check if  store api can be accessed by GET request" classname="Scenario: Check if  store api can be accessed by GET request" time="0.071"/>
+  <testcase name="When User sends a POST request by providing the information to stores endpoint" classname="Scenario: Check if  store api can be accessed by POST request" time="0"/>
+  <testcase name="Then User must get back valid status code 201 for post request" classname="Scenario: Check if  store api can be accessed by POST request" time="0"/>
+  <testcase name="Scenario: Check if  store api can be accessed by POST request" classname="Scenario: Check if  store api can be accessed by POST request" time="0.084"/>
+  <testcase name="When User sends a PUT request by providing the information to stores/id endpoint" classname="Scenario: Check if the store api can be accessed by PUT request" time="0"/>
+  <testcase name="Then user get back valid status code 200" classname="Scenario: Check if the store api can be accessed by PUT request" time="0"/>
+  <testcase name="Scenario: Check if the store api can be accessed by PUT request" classname="Scenario: Check if the store api can be accessed by PUT request" time="0.137"/>
+  <testcase name="When User sends a DELETE request to stores/id endpoint" classname="Scenario: Check if the store api can be accessed by DELETE request" time="0"/>
+  <testcase name="Then user get back a valid status code 200" classname="Scenario: Check if the store api can be accessed by DELETE request" time="0"/>
+  <testcase name="Scenario: Check if the store api can be accessed by DELETE request" classname="Scenario: Check if the store api can be accessed by DELETE request" time="0.158"/>
+</testsuite>
